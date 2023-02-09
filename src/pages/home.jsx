@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment, useState } from "react";
 import {
   Card,
   CardBody,
@@ -13,6 +13,7 @@ import { UsersIcon } from "@heroicons/react/24/solid";
 import { PageTitle, Footer } from "@/widgets/layout";
 import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
+import Property from "../widgets/cards/Property";
 
 export function Home() {
   return (
@@ -134,6 +135,9 @@ export function Home() {
           </div>
         </div>
       </section>
+
+      <Property />
+
       <section className="relative bg-blue-gray-50/50 py-24 px-4">
         <div className="container mx-auto">
           <PageTitle heading="Build something">
