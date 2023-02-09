@@ -15,12 +15,27 @@ import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
 import Property from "../widgets/cards/Property";
 
+import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
+import { Carousel } from "react-responsive-carousel";
+
 export function Home() {
   return (
     <>
-      <div className="relative flex h-screen content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-[url('https://images.unsplash.com/photo-1557804506-669a67965ba0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80')] bg-cover bg-center" />
-        <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center" />
+      <div className="relative flex h-screen content-center items-center justify-center bg-cyan-500 pt-16 pb-32">
+        <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center">
+          <Carousel dynamicHeight={true} autoPlay={true} infiniteLoop={true}>
+            <div>
+              <img src="../../public/img/interior/interior_4.jpg" />
+            </div>
+            <div>
+              <img src="../../public/img/interior/interior_1.jpg" />
+            </div>
+            <div>
+              <img src="../../public/img/interior/interior_3.jpg" />
+            </div>
+          </Carousel>
+        </div>
+
         <div className="max-w-8xl container relative mx-auto">
           <div className="flex flex-wrap items-center">
             <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
@@ -40,7 +55,7 @@ export function Home() {
           </div>
         </div>
       </div>
-      <section className="-mt-32 bg-gray-50 px-4 pb-20 pt-4">
+      <section className="mt-40 bg-gray-50 px-4 pb-20 pt-4">
         <div className="container mx-auto">
           <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
             {featuresData.map(({ color, title, icon, description }) => (
@@ -55,7 +70,7 @@ export function Home() {
               />
             ))}
           </div>
-          <div className="mt-32 flex flex-wrap items-center">
+          <div className="mt-20 flex flex-wrap items-center">
             <div className="mx-auto -mt-8 w-full px-4 md:w-5/12">
               <div className="mb-6 inline-flex h-16 w-16 items-center justify-center rounded-full bg-white p-3 text-center shadow-lg">
                 <UsersIcon className="h-6 w-6 text-blue-gray-900" />
@@ -182,7 +197,7 @@ export function Home() {
           </form>
         </div>
       </section>
-      <div className="bg-blue-gray-50/50">
+      <div id="footer" className="bg-blue-gray-50/50">
         <Footer />
       </div>
     </>
