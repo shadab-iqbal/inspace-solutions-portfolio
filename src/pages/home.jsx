@@ -14,16 +14,22 @@ import { PageTitle, Footer } from "@/widgets/layout";
 import { FeatureCard, TeamCard } from "@/widgets/cards";
 import { featuresData, teamData, contactData } from "@/data";
 import Property from "../widgets/cards/Property";
-
+import "../../public/css/carousel.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
 
 export function Home() {
   return (
     <>
-      <div className="relative flex h-screen content-center items-center justify-center bg-cyan-500 pt-16 pb-32">
+      <div className="relative mb-10 flex content-center items-center justify-center pt-16 pb-32">
         <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center">
-          <Carousel dynamicHeight={true} autoPlay={true} infiniteLoop={true}>
+          <Carousel
+            dynamicHeight={true}
+            autoPlay={true}
+            infiniteLoop={true}
+            showArrows={false}
+            showThumbs={false}
+          >
             <div>
               <img src="../../public/img/interior/interior_4.jpg" />
             </div>
@@ -36,7 +42,7 @@ export function Home() {
           </Carousel>
         </div>
 
-        <div className="max-w-8xl container relative mx-auto">
+        <div className="max-w-8xl container relative mx-auto mt-24 pt-16">
           <div className="flex flex-wrap items-center">
             <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
               <Typography
@@ -55,9 +61,10 @@ export function Home() {
           </div>
         </div>
       </div>
-      <section className="mt-40 bg-gray-50 px-4 pb-20 pt-4">
+
+      <section className="mt-40 bg-gray-50 px-4 pb-20 pt-10">
         <div className="container mx-auto">
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mt-10 grid grid-cols-1 gap-6 pt-5 md:grid-cols-2 lg:grid-cols-3">
             {featuresData.map(({ color, title, icon, description }) => (
               <FeatureCard
                 key={title}
