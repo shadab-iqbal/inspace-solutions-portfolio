@@ -129,7 +129,7 @@ export function Home() {
           </div>
         </div>
       </section>
-      <section className="px-4 pt-20 pb-48">
+      {/* <section className="px-4 pt-20 pb-48">
         <div className="container mx-auto">
           <PageTitle heading="Here are our heroes">
             According to the National Oceanic and Atmospheric Administration,
@@ -156,7 +156,7 @@ export function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       <Property />
 
@@ -192,15 +192,17 @@ export function Home() {
           <PageTitle heading="Want to work with us?">
             Complete this form and we will get back to you in 24 hours.
           </PageTitle>
-          <form className="mx-auto mt-12 max-w-3xl text-center">
+          <form className="mx-auto mt-12 max-w-3xl text-center" action="mailto:siam14862@gmail.com" method="post" encType="text/plain">
             <div className="mb-8 flex gap-8">
-              <Input variant="standard" size="lg" label="Full Name" />
-              <Input variant="standard" size="lg" label="Email Address" />
+              <Input type="text" variant="standard" size="lg" label="Full Name" />
+              <Input type="email" variant="standard" size="lg" label="Email Address" />
             </div>
             <Textarea variant="standard" size="lg" label="Message" rows={8} />
-            <Button variant="gradient" size="lg" className="mt-8">
-              Send Message
-            </Button>
+            
+              <Button type="submit" variant="gradient" size="lg" className="mt-8">
+                Send Message
+              </Button> 
+            
           </form>
         </div>
       </section>
