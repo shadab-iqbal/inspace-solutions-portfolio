@@ -1,6 +1,8 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Navbar } from "@/widgets/layout";
 import routes from "@/routes";
+import Project from "../src/pages/project.jsx";
+import PropertyDetail from "../src/widgets/cards/PropertyDetail.js";
 
 function App() {
   return (
@@ -14,6 +16,11 @@ function App() {
             element && <Route key={key} exact path={path} element={element} />
         )}
         <Route path="*" element={<Navigate to="/home" replace />} />
+
+        <Route
+          path={"/projects/:id/:title"}
+          element={<Project description={"OK"} />}
+        />
       </Routes>
     </>
   );

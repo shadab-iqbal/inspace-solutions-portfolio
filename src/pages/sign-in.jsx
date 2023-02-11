@@ -10,6 +10,7 @@ import {
   Typography,
 } from "@material-tailwind/react";
 import { SimpleFooter } from "@/widgets/layout";
+import Property from "../widgets/cards/Property";
 
 export function SignIn() {
   return (
@@ -70,5 +71,3 @@ export function SignIn() {
 }
 
 export default SignIn;
-
-

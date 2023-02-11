@@ -1,4 +1,6 @@
 import React, { Fragment, useState } from "react";
+import { Link } from "react-router-dom";
+
 import PropertyDetail from "./PropertyDetail.js";
 import "../../../public/css/Property.css";
 
@@ -19,16 +21,24 @@ const Property = () => {
                 <div className="single-property">
                   <div className="card">
                     <div className="property-thumb">
-                      <img src={detail.Image} alt="Palace" />
+                      <img
+                        src={"../../../public/img/interior/" + detail.image}
+                        alt="Palace"
+                      />
                     </div>
 
                     <div className="property-content">
                       <h3>{detail.heading}</h3>
                       <div className="mark">
                         <i class="fa-solid fa-location-dot"></i>
-                        <span>{detail.span}</span>
+                        <span>{detail.location}</span>
                       </div>
-                      <span className="amount">{detail.amount}</span>
+                      <Link
+                        to={"/projects/" + detail.id + "/" + detail.heading}
+                        className="amount"
+                      >
+                        View Details
+                      </Link>
                     </div>
                   </div>
                 </div>

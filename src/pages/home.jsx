@@ -129,34 +129,6 @@ export function Home() {
           </div>
         </div>
       </section>
-      {/* <section className="px-4 pt-20 pb-48">
-        <div className="container mx-auto">
-          <PageTitle heading="Here are our heroes">
-            According to the National Oceanic and Atmospheric Administration,
-            Ted, Scambos, NSIDClead scentist, puts the potentially record
-            maximum.
-          </PageTitle>
-          <div className="mt-24 grid grid-cols-1 gap-12 gap-x-24 md:grid-cols-2 xl:grid-cols-4">
-            {teamData.map(({ img, name, position, socials }) => (
-              <TeamCard
-                key={name}
-                img={img}
-                name={name}
-                position={position}
-                socials={
-                  <div className="flex items-center gap-2">
-                    {socials.map(({ color, name }) => (
-                      <IconButton key={name} color={color} variant="text">
-                        <i className={`fa-brands text-lg fa-${name}`} />
-                      </IconButton>
-                    ))}
-                  </div>
-                }
-              />
-            ))}
-          </div>
-        </div>
-      </section> */}
 
       <Property />
 
@@ -192,17 +164,31 @@ export function Home() {
           <PageTitle heading="Want to work with us?">
             Complete this form and we will get back to you in 24 hours.
           </PageTitle>
-          <form className="mx-auto mt-12 max-w-3xl text-center" action="mailto:siam14862@gmail.com" method="post" encType="text/plain">
+          <form
+            className="mx-auto mt-12 max-w-3xl text-center"
+            action="mailto:siam14862@gmail.com"
+            method="post"
+            encType="text/plain"
+          >
             <div className="mb-8 flex gap-8">
-              <Input type="text" variant="standard" size="lg" label="Full Name" />
-              <Input type="email" variant="standard" size="lg" label="Email Address" />
+              <Input
+                type="text"
+                variant="standard"
+                size="lg"
+                label="Full Name"
+              />
+              <Input
+                type="email"
+                variant="standard"
+                size="lg"
+                label="Email Address"
+              />
             </div>
             <Textarea variant="standard" size="lg" label="Message" rows={8} />
-            
-              <Button type="submit" variant="gradient" size="lg" className="mt-8">
-                Send Message
-              </Button> 
-            
+
+            <Button type="submit" variant="gradient" size="lg" className="mt-8">
+              Send Message
+            </Button>
           </form>
         </div>
       </section>
