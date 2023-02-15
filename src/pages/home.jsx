@@ -132,7 +132,7 @@ export function Home() {
 
       <Property />
 
-      <section className="relative bg-blue-gray-50/50 py-24 px-4">
+      {/* <section className="relative bg-blue-gray-50/50 py-24 px-4">
         <div className="container mx-auto">
           <PageTitle heading="Build something">
             Put the potentially record low maximum sea ice extent tihs year down
@@ -159,8 +159,8 @@ export function Home() {
                   {description}
                 </Typography>
               </Card>
-            ))}
-          </div>
+            ))} */}
+          {/* </div>
           <PageTitle heading="Want to work with us?">
             Complete this form and we will get back to you in 24 hours.
           </PageTitle>
@@ -190,8 +190,8 @@ export function Home() {
               Send Message
             </Button>
           </form>
-        </div>
-      </section>
+        </div> */}
+      {/* </section> */}
       <div id="footer" className="bg-blue-gray-50/50">
         <Footer />
       </div>
