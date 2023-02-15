@@ -20,19 +20,19 @@
     font-family: "Roboto", serif;
 }
 
-.container{
+.container-contact{
     max-width: 1170px;
     padding-left: 1rem;
     padding-right: 1rem;
     margin: auto;
 }
 
-.row{
+.row-contact{
     display: flex;
     flex-wrap: wrap;
 }
 
-.column{
+.column-contact{
     flex: 0 0 auto;
     width: 50%;
 }

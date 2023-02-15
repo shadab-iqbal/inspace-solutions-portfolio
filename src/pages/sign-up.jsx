@@ -22,9 +22,9 @@ export function SignUp() {
           <h2>Contact Us</h2>
         </div>
 
-        <div className="container">
-          <div className="row">
-            <div className="column">  
+        <div className="container-contact">
+          <div className="row-contact">
+            <div className="column-contact">  
               <div className="contact-widget">
 
                 <div className="contact-widget-item">
@@ -60,7 +60,7 @@ export function SignUp() {
               </div>
               </div>
 
-              <div className="column">
+              <div className="column-contact">
                 <div className="contact-form">
                   <form action="#">
                       <input type="text" placeholder="Name"/>
@@ -73,7 +73,7 @@ export function SignUp() {
 
           </div>
 
-          <div className="row">
+          <div className="row-contact">
             <div className="map-column">
                 <div className="contact-map">
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d257.1516895096099!2d90.36413056609567!3d23.766292843259116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755c0a6de966345%3A0x2fb7f7dfe1bcff10!2sEurolink%20Council%20Tours%20%26%20Travels!5e0!3m2!1sen!2sbd!4v1676440590044!5m2!1sen!2sbd" 
