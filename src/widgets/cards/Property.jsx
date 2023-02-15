@@ -48,7 +48,7 @@ const Property = () => {
         </div>
 
         <div className="more-property">
-          <a className="property-btn" href="#">
+          <a className="property-btn mb-12" href="#">
             More Properties
           </a>
         </div>

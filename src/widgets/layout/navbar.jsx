@@ -109,9 +109,9 @@ Navbar.defaultProps = {
   brandName: "Inspace Solutions",
   action: (
     <a href="#footer">
-      <Button variant="gradient" size="sm" fullWidth>
+      {/* <Button variant="gradient" size="sm" fullWidth>
         Contact Us
-      </Button>
+      </Button> */}
     </a>
   ),
 };

@@ -132,14 +132,14 @@ export function Home() {
 
       <Property />
 
-      {/* <section className="relative bg-blue-gray-50/50 py-24 px-4">
+      <section className="relative bg-blue-gray-50/50 py-24 px-4">
         <div className="container mx-auto">
           <PageTitle heading="Build something">
             Put the potentially record low maximum sea ice extent tihs year down
             to low ice. According to the National Oceanic and Atmospheric
             Administration, Ted, Scambos.
           </PageTitle>
-          <div className="mx-auto mt-20 mb-48 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
+          <div className="mx-auto mt-20 mb-8 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (
               <Card
                 key={title}
@@ -159,9 +159,9 @@ export function Home() {
                   {description}
                 </Typography>
               </Card>
-            ))} */}
-          {/* </div>
-          <PageTitle heading="Want to work with us?">
+            ))}
+          </div>
+          {/* <PageTitle heading="Want to work with us?">
             Complete this form and we will get back to you in 24 hours.
           </PageTitle>
           <form
@@ -189,9 +189,10 @@ export function Home() {
             <Button type="submit" variant="gradient" size="lg" className="mt-8">
               Send Message
             </Button>
-          </form>
-        </div> */}
-      {/* </section> */}
+          </form> */}
+        </div>
+      </section>
+
       <div id="footer" className="bg-blue-gray-50/50">
         <Footer />
       </div>
