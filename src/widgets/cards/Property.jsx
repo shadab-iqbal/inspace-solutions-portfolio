@@ -47,10 +47,22 @@ const Property = () => {
           })}
         </div>
 
-        <div className="more-property">
-          <a className="property-btn mb-12" href="#">
-            More Properties
-          </a>
+        <div className="flex flex-wrap justify-center sm:justify-start">
+          <div className="more-property mx-20 mb-4">
+            <a className="property-btn" href="\architecture">
+              View Architectures
+            </a>
+          </div>
+          <div className="more-property mx-20 mb-4">
+            <a className="property-btn" href="\interior">
+              View Interiors
+            </a>
+          </div>
+          <div className="more-property mx-20 mb-4">
+            <a className="property-btn" href="\landscape">
+              View Landscapes
+            </a>
+          </div>
         </div>
       </section>
     </Fragment>

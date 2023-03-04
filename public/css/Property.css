@@ -1,3 +1,11 @@
+.property-customed {
+  font-family: Lato;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  font-size: 1.76471rem;
+  line-height: "1.33";
+}
+
 .property {
   padding-top: 3rem;
   padding-bottom: 1rem;
@@ -107,11 +115,13 @@
   display: inline-block;
   border-radius: 2rem;
   font-size: 15px;
-  border: 1px solid #fdae5c;
-  font-weight: 400;
+  /* border: 1px solid #fdae5c; */
+  border: 2px solid #af600b;
+  font-weight: 600;
   font-family: "Poppins", sans-serif;
   letter-spacing: 0.5px;
-  color: #fdae5c;
+  color: #533e27;
+  /* color: black; */
   transition: 0.5s ease;
 }
 .more-property .property-btn:hover {
