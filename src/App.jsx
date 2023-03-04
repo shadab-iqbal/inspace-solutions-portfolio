@@ -17,10 +17,7 @@ function App() {
         )}
         <Route path="*" element={<Navigate to="/home" replace />} />
 
-        <Route
-          path={"/projects/:id/:title"}
-          element={<Project description={"OK"} />}
-        />
+        <Route path={"/projects/:id/:title"} element={<Project />} />
       </Routes>
     </>
   );
