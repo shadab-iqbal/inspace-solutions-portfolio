@@ -1,5 +1,8 @@
 import { Footer } from "@/widgets/layout";
 import { Typography } from "@material-tailwind/react";
+import "../../public/css/Property.css";
+import PropertyDetail from "../widgets/cards/PropertyDetail.js";
+import { Link } from "react-router-dom";
 
 export function Landscape() {
   return (
@@ -37,6 +40,38 @@ export function Landscape() {
         <p class="text-lg font-light">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit.
         </p>
+      </div>
+
+      <div className="row mx-auto max-w-screen-lg items-center justify-center px-4 lg:px-6 xl:px-8">
+        {PropertyDetail.map((detail) => {
+          return (
+            <div className="column">
+              <div className="single-property">
+                <div className="card">
+                  <div className="property-thumb">
+                    <img
+                      src={"../../../public/img/interior/" + detail.image}
+                      alt="Palace"
+                    />
+                  </div>
+                  <div className="property-content">
+                    <h3>{detail.heading}</h3>
+                    <div className="mark">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <span>{detail.location}</span>
+                    </div>
+                    <Link
+                      to={"/projects/" + detail.id + "/" + detail.heading}
+                      className="amount"
+                    >
+                      View Details
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
       </div>
 
       <div id="footer" className="bg-blue-gray-50/50">

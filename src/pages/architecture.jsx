@@ -1,20 +1,15 @@
-import { Footer } from "@/widgets/layout";
+import { PageTitle, Footer } from "@/widgets/layout";
 import { Typography } from "@material-tailwind/react";
 import "../../public/css/Property.css";
+import PropertyDetail from "../widgets/cards/PropertyDetail.js";
+import { Link } from "react-router-dom";
 
 export function Architecture() {
   return (
-    <>
-      {/* <div className="">
-        <img
-          src="../../public/img/website-pics/Architechture/Subarnabhumi Resort- concept for Hotel building/05.jpg"
-          style={{ height: "800px", width: "100%" }}
-        />
-      </div> */}
-
+    <div>
       <div>
         <img
-          src="../../public/img/website-pics/Architechture/Subarnabhumi Resort- concept for Hotel building/05.jpg"
+          src="../../public/img/architecture/Subarnabhumi Resort- concept for Hotel building/05.jpg"
           style={{ height: "800px", width: "100%" }}
         />
 
@@ -28,7 +23,6 @@ export function Architecture() {
           </Typography>
         </div>
       </div>
-
       <div class="flex flex-col items-center justify-center py-10">
         <h1 class="property-customed mb-4 text-3xl">
           ARCHITECTURAL WORKS SELECTION
@@ -38,9 +32,41 @@ export function Architecture() {
         </p>
       </div>
 
+      <div className="row mx-auto max-w-screen-lg items-center justify-center px-4 lg:px-6 xl:px-8">
+        {PropertyDetail.map((detail) => {
+          return (
+            <div className="column">
+              <div className="single-property">
+                <div className="card">
+                  <div className="property-thumb">
+                    <img
+                      src={"../../../public/img/interior/" + detail.image}
+                      alt="Palace"
+                    />
+                  </div>
+                  <div className="property-content">
+                    <h3>{detail.heading}</h3>
+                    <div className="mark">
+                      <i class="fa-solid fa-location-dot"></i>
+                      <span>{detail.location}</span>
+                    </div>
+                    <Link
+                      to={"/projects/" + detail.id + "/" + detail.heading}
+                      className="amount"
+                    >
+                      View Details
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
       <div id="footer" className="bg-blue-gray-50/50">
         <Footer />
       </div>
-    </>
+    </div>
   );
 }

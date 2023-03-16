@@ -5,7 +5,7 @@ import PropertyDetail from "./PropertyDetail.js";
 import "../../../public/css/Property.css";
 
 const Property = () => {
-  const [detail, setDetail] = useState(PropertyDetail);
+  // const [detail, setDetail] = useState(PropertyDetail);
 
   return (
     <Fragment>
@@ -15,7 +15,7 @@ const Property = () => {
         </div>
 
         <div className="row">
-          {detail.map((detail) => {
+          {PropertyDetail.map((detail) => {
             return (
               <div className="column">
                 <div className="single-property">

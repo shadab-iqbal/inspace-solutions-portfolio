@@ -158,35 +158,6 @@ export function Home() {
               </Card>
             ))}
           </div>
-          {/* <PageTitle heading="Want to work with us?">
-            Complete this form and we will get back to you in 24 hours.
-          </PageTitle>
-          <form
-            className="mx-auto mt-12 max-w-3xl text-center"
-            action="mailto:siam14862@gmail.com"
-            method="post"
-            encType="text/plain"
-          >
-            <div className="mb-8 flex gap-8">
-              <Input
-                type="text"
-                variant="standard"
-                size="lg"
-                label="Full Name"
-              />
-              <Input
-                type="email"
-                variant="standard"
-                size="lg"
-                label="Email Address"
-              />
-            </div>
-            <Textarea variant="standard" size="lg" label="Message" rows={8} />
-
-            <Button type="submit" variant="gradient" size="lg" className="mt-8">
-              Send Message
-            </Button>
-          </form> */}
         </div>
       </section>
 
