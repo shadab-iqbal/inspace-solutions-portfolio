@@ -1,44 +1,57 @@
 const PropertyDetail = [
   {
     id: "1",
-    heading: "Project A",
+    heading: "Eastern House",
     location: "Khilgaon",
     details: "this is khilgaon project",
-    image: "interior_1.jpg",
+    image: [
+      {
+        original:
+          "../../../public/img/architecture/Eastern Housing Building/01.jpg",
+        thumbnail:
+          "../../../public/img/architecture/Eastern Housing Building/01.jpg",
+      },
+      {
+        original:
+          "../../../public/img/architecture/Eastern Housing Building/02.jpg",
+        thumbnail:
+          "../../../public/img/architecture/Eastern Housing Building/02.jpg",
+      },
+    ],
   },
   {
     id: "2",
     heading: "Project B",
     location: "Dhanmondi",
     details: "this is khilgaon project",
-    image: "interior_2.jpg",
+    image: "02.jpg",
   },
   {
     id: "3",
     heading: "Comfortable Apartment in Palace",
     location: "Bashundhara",
     details: "this is khilgaon project",
-    image: "interior_3.jpg",
+    image: "03.jpg",
   },
   {
     id: "4",
     heading: "Comfortable Apartment in Palace",
     location: "Mirpur",
     details: "this is khilgaon project",
-    image: "interior_4.jpg",
+    image: "04.jpg",
   },
   {
     id: "5",
     heading: "Comfortable Apartment in Palace",
     location: "Banani",
     details: "this is khilgaon project",
-    image: "interior_5.jpg",
+    image: "05.jpg",
   },
   {
     id: "6",
     heading: "Comfortable Apartment in Palace",
     location: "Uttara",
-    image: "interior_1.jpg",
+    image: "06.jpg",
   },
 ];
 export default PropertyDetail;

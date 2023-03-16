@@ -1,0 +1,3 @@
+1. there will be separate files for architecture.details, landscape.details, and interior.details.
+
+2. fix the css for gallery

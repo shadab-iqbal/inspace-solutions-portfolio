@@ -1,7 +1,6 @@
 import {
   Home,
   Profile,
-  SignIn,
   Contact,
   Architecture,
   Interior,
@@ -46,12 +45,6 @@ export const routes = [
     name: "profile",
     path: "/profile",
     element: <Profile />,
-  },
-  {
-    icon: ArrowRightOnRectangleIcon,
-    name: "Sign In",
-    path: "/sign-in",
-    element: <SignIn />,
   },
   {
     icon: PhoneIcon,

@@ -21,10 +21,7 @@ const Property = () => {
                 <div className="single-property">
                   <div className="card">
                     <div className="property-thumb">
-                      <img
-                        src={"../../../public/img/interior/" + detail.image}
-                        alt="Palace"
-                      />
+                      <img src={detail.image[0].original} alt="Palace" />
                     </div>
 
                     <div className="property-content">
