@@ -1,7 +1,7 @@
 import { Footer } from "@/widgets/layout";
 import { Typography } from "@material-tailwind/react";
 import "../../public/css/Property.css";
-import PropertyDetail from "../widgets/cards/PropertyDetail.js";
+import LandscapeProjects from "../widgets/cards/LandscapeProjects.js";
 import { Link } from "react-router-dom";
 
 export function Landscape() {
@@ -43,25 +43,29 @@ export function Landscape() {
       </div>
 
       <div className="row mx-auto max-w-screen-lg items-center justify-center px-4 lg:px-6 xl:px-8">
-        {PropertyDetail.map((detail) => {
+        {LandscapeProjects.map((project) => {
           return (
             <div className="column">
               <div className="single-property">
                 <div className="card">
                   <div className="property-thumb">
-                    <img
-                      src={"../../../public/img/interior/" + detail.image}
-                      alt="Palace"
-                    />
+                    <img src={project.image[0].original} alt="Palace" />
                   </div>
                   <div className="property-content">
-                    <h3>{detail.heading}</h3>
+                    <h3>{project.heading}</h3>
                     <div className="mark">
                       <i class="fa-solid fa-location-dot"></i>
-                      <span>{detail.location}</span>
+                      <span>{project.location}</span>
                     </div>
                     <Link
-                      to={"/projects/" + detail.id + "/" + detail.heading}
+                      to={
+                        "/projects/" +
+                        project.type +
+                        "/" +
+                        project.title +
+                        "/" +
+                        project.id
+                      }
                       className="amount"
                     >
                       View Details

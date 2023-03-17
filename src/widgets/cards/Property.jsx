@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 
-import ArchitectureProjects from "./PropertyDetail.js";
+import ArchitectureProjects from "./ArchitectureProjects.js";
 import "../../../public/css/Property.css";
 
 const Property = () => {
@@ -31,7 +31,14 @@ const Property = () => {
                         <span>{project.location}</span>
                       </div>
                       <Link
-                        to={"/projects/" + project.id + "/" + project.heading}
+                        to={
+                          "/projects/" +
+                          project.type +
+                          "/" +
+                          project.title +
+                          "/" +
+                          project.id
+                        }
                         className="amount"
                       >
                         View Details

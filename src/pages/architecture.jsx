@@ -1,7 +1,7 @@
 import { PageTitle, Footer } from "@/widgets/layout";
 import { Typography } from "@material-tailwind/react";
 import "../../public/css/Property.css";
-import ArchitectureProjects from "../widgets/cards/PropertyDetail.js";
+import ArchitectureProjects from "../widgets/cards/ArchitectureProjects.js";
 import { Link } from "react-router-dom";
 
 export function Architecture() {
@@ -48,7 +48,14 @@ export function Architecture() {
                       <span>{project.location}</span>
                     </div>
                     <Link
-                      to={"/projects/" + project.id + "/" + project.heading}
+                      to={
+                        "/projects/" +
+                        project.type +
+                        "/" +
+                        project.title +
+                        "/" +
+                        project.id
+                      }
                       className="amount"
                     >
                       View Details
