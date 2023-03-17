@@ -2,10 +2,20 @@ import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 
 import ArchitectureProjects from "./ArchitectureProjects.js";
+import InteriorProjects from "./InteriorProjects.js";
+import LandscapeProjects from "./LandscapeProjects.js";
+
 import "../../../public/css/Property.css";
 
 const Property = () => {
-  // const [detail, setDetail] = useState(PropertyDetail);
+  const AllProjects = [];
+
+  AllProjects.push(ArchitectureProjects[0]);
+  AllProjects.push(InteriorProjects[0]);
+  AllProjects.push(LandscapeProjects[0]);
+  AllProjects.push(ArchitectureProjects[1]);
+  AllProjects.push(InteriorProjects[1]);
+  AllProjects.push(LandscapeProjects[1]);
 
   return (
     <Fragment>
@@ -15,7 +25,7 @@ const Property = () => {
         </div>
 
         <div className="row">
-          {ArchitectureProjects.map((project) => {
+          {AllProjects.map((project) => {
             return (
               <div className="column">
                 <div className="single-property">
