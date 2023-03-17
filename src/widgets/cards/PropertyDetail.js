@@ -1,4 +1,4 @@
-const PropertyDetail = [
+const ArchitectureProjects = [
   {
     id: "1",
     heading: "Eastern House",
@@ -21,37 +21,63 @@ const PropertyDetail = [
   },
   {
     id: "2",
-    heading: "Project B",
+    heading: "Quazi Zakir Resident",
     location: "Dhanmondi",
     details: "this is khilgaon project",
-    image: "02.jpg",
+    image: [
+      {
+        original:
+          "../../../public/img/architecture/Eastern Housing Building/01.jpg",
+        thumbnail:
+          "../../../public/img/architecture/Eastern Housing Building/01.jpg",
+      },
+      {
+        original:
+          "../../../public/img/architecture/Eastern Housing Building/02.jpg",
+        thumbnail:
+          "../../../public/img/architecture/Eastern Housing Building/02.jpg",
+      },
+    ],
   },
   {
     id: "3",
-    heading: "Comfortable Apartment in Palace",
+    heading: "Subarna Bhumi Resort",
     location: "Bashundhara",
     details: "this is khilgaon project",
-    image: "03.jpg",
+    image: [
+      {
+        original:
+          "../../../public/img/architecture/Eastern Housing Building/01.jpg",
+        thumbnail:
+          "../../../public/img/architecture/Eastern Housing Building/01.jpg",
+      },
+      {
+        original:
+          "../../../public/img/architecture/Eastern Housing Building/02.jpg",
+        thumbnail:
+          "../../../public/img/architecture/Eastern Housing Building/02.jpg",
+      },
+    ],
   },
   {
     id: "4",
-    heading: "Comfortable Apartment in Palace",
+    heading: "Subarna Bhumi Hotel",
     location: "Mirpur",
     details: "this is khilgaon project",
-    image: "04.jpg",
-  },
-  {
-    id: "5",
-    heading: "Comfortable Apartment in Palace",
-    location: "Banani",
-    details: "this is khilgaon project",
-    image: "05.jpg",
-  },
-  {
-    id: "6",
-    heading: "Comfortable Apartment in Palace",
-    location: "Uttara",
-    image: "06.jpg",
+    image: [
+      {
+        original:
+          "../../../public/img/architecture/Eastern Housing Building/01.jpg",
+        thumbnail:
+          "../../../public/img/architecture/Eastern Housing Building/01.jpg",
+      },
+      {
+        original:
+          "../../../public/img/architecture/Eastern Housing Building/02.jpg",
+        thumbnail:
+          "../../../public/img/architecture/Eastern Housing Building/02.jpg",
+      },
+    ],
   },
 ];
-export default PropertyDetail;
+export default ArchitectureProjects;

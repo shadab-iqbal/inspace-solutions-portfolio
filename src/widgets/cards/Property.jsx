@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 
-import PropertyDetail from "./PropertyDetail.js";
+import ArchitectureProjects from "./PropertyDetail.js";
 import "../../../public/css/Property.css";
 
 const Property = () => {
@@ -15,23 +15,23 @@ const Property = () => {
         </div>
 
         <div className="row">
-          {PropertyDetail.map((detail) => {
+          {ArchitectureProjects.map((project) => {
             return (
               <div className="column">
                 <div className="single-property">
                   <div className="card">
                     <div className="property-thumb">
-                      <img src={detail.image[0].original} alt="Palace" />
+                      <img src={project.image[0].original} alt="Palace" />
                     </div>
 
                     <div className="property-content">
-                      <h3>{detail.heading}</h3>
+                      <h3>{project.heading}</h3>
                       <div className="mark">
                         <i class="fa-solid fa-location-dot"></i>
-                        <span>{detail.location}</span>
+                        <span>{project.location}</span>
                       </div>
                       <Link
-                        to={"/projects/" + detail.id + "/" + detail.heading}
+                        to={"/projects/" + project.id + "/" + project.heading}
                         className="amount"
                       >
                         View Details
