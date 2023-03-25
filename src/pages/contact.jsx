@@ -65,9 +65,9 @@ export function Contact() {
                     <input type="email" placeholder="Email" />
                     <textarea placeholder="Comment"></textarea>
                     <button
-                      style={{ backgroundColor: "#287ff9" }}
+                      // style={{ backgroundColor: "#287ff9" }}
                       type="submit"
-                      className="site-btn"
+                      className="site-btn bg-blue-400"
                     >
                       Send Message
                     </button>

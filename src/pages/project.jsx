@@ -21,8 +21,8 @@ export function Project() {
   const images = property.image;
 
   return (
-    <div className="container">
-      <ImageGallery items={images} />
+    <div className="justify-center h-screen rounded-3xl">
+          <ImageGallery items={images} />   
     </div>
   );
 }

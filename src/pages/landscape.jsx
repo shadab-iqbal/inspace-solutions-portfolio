@@ -9,7 +9,7 @@ export function Landscape() {
     <>
       <div className="">
         <img
-          src="../../public/img/website-pics/All render/Sobprna Vumi Resot/5.jpg"
+          src="../../public/img/landscape/Mr. Aynul Islam Resident Aurunapolli, Savar, Dhaka/Mr. Aynul islam- resident landscape-Aurunapolli, Savar, Dhaka (7).jpg"
           style={{ height: "800px", width: "100%" }}
         />
 

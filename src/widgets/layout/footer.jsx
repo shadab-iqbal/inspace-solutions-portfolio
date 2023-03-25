@@ -79,39 +79,29 @@ export function Footer({ title, description, socials, menus, copyright }) {
 }
 
 Footer.defaultProps = {
-  title: "Material Tailwind",
+  title: "Inspace Solutions",
   description:
-    "Easy to use React components for Tailwind CSS and Material Design.",
+    "Transforming spaces, one design at a time. Inspace Solutions - Your trusted partner for interior design, architecture, and landscaping.",
   socials: [
     {
       color: "blue",
       name: "facebook",
-      path: "https://www.facebook.com/CreativeTim",
+      path: "https://www.facebook.com/inspacebd",
     },
-    {
-      color: "light-blue",
-      name: "twitter",
-      path: "https://www.twitter.com/creativetim",
-    },
+    // {
+    //   color: "light-blue",
+    //   name: "twitter",
+    //   path: "https://www.twitter.com/creativetim",
+    // },
     {
       color: "purple",
       name: "instagram",
-      path: "https://www.instagram.com/creativetimofficial/",
-    },
-    {
-      color: "pink",
-      name: "dribbble",
-      path: "https://www.dribbble.com/creativetim",
+      path: "",
     },
     {
       color: "red",
       name: "youtube",
-      path: "https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w",
-    },
-    {
-      color: "black",
-      name: "github",
-      path: "https://github.com/creativetimofficial/material-tailwind",
+      path: "",
     },
   ],
   menus: [
@@ -154,13 +144,13 @@ Footer.defaultProps = {
   ],
   copyright: (
     <>
-      Copyright © {year} Material Tailwind by{" "}
+      Copyright © {2023} Inspace Solutions by{" "}
       <a
         href="https://www.creative-tim.com?ref=mtk"
         target="_blank"
         className="text-blue-gray-500 transition-colors hover:text-blue-500"
       >
-        Creative Tim
+        Shadab Iqbal & Mohammed Taher
       </a>
       .
     </>
