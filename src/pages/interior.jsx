@@ -55,8 +55,9 @@ export function Interior() {
                   <div className="property-content">
                     <h3>{project.heading}</h3>
                     <div className="mark">
-                      <i class="fa-solid fa-location-dot"></i>
-                      <span>{project.location}</span>
+                        <span>{project.title}</span><br/>
+                        <i class="fa-solid fa-location-dot"></i> 
+                        <span>{project.location}</span>
                     </div>
                     <Link
                       to={

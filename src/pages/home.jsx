@@ -34,7 +34,19 @@ export function Home() {
               <img src="../../public/img/interior/Architecture 1.png" />
             </div>
             <div>
-              <img src="../../public/img/interior/Architecture 2.png" />
+              <img src="../../public/img/architecture/Eastern Housing Building/03.jpg" />
+            </div>
+            <div>
+              <img src="../../public/img/interior/Interior Office project/DHL Conference room- Tejgoan, Dhaka/Hallroom with partition (4).jpg" />
+            </div>
+            <div>
+              <img src="../../public/img/interior/Interior Office project/MANAMI FASHIONS LTD- Factory Office, Kabirpur, Ashulia, Savar, Bangladesh/con4.jpg" />
+            </div>
+            <div>
+              <img src="../../public/img/landscape/Altu Khan Jute Mills Limited (AKJML) LANDSCAPE/17.jpg" />
+            </div>
+            <div>
+              <img src="../../public/img/landscape/Md. Saiful Islam Resident- Backyard_ Rooftop Garden/Roof top Garden (3).jpg" />
             </div>
           </Carousel>
         </div>
@@ -103,7 +115,7 @@ export function Home() {
                 <CardHeader className="relative h-56">
                   <img
                     alt="Card Image"
-                    src="/img/teamwork.jpeg"
+                    src="../../public/img/Home_card_img.jpg"
                     className="h-full w-full"
                   />
                 </CardHeader>
@@ -129,7 +141,7 @@ export function Home() {
 
       <Property />
 
-      <section className="relative bg-blue-gray-50/50 py-24 px-4">
+      <section className="relative bg-gray-200 py-24 px-4">
         <div className="container mx-auto">
           <PageTitle heading="Build something">
             Put the potentially record low maximum sea ice extent tihs year down

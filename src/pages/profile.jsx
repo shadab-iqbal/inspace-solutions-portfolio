@@ -1,3 +1,6 @@
+import ArchitectureProjects from "../widgets/cards/ArchitectureProjects";
+import InteriorProjects from "../widgets/cards/InteriorProjects";
+import LandscapeProjects from "../widgets/cards/LandscapeProjects";
 import { Avatar, Typography, Button } from "@material-tailwind/react";
 import {
   MapPinIcon,
@@ -31,7 +34,7 @@ export function Profile() {
                   </div>
                 </div>
                 <div className="mt-10 flex w-full justify-center px-4 lg:order-3 lg:mt-0 lg:w-4/12 lg:justify-end lg:self-center">
-                 <a href="">
+                 <a href="/contact-us">
                   <Button className="bg-blue-400" >Conntect</Button>
                  </a>                 
                 </div>
@@ -43,7 +46,7 @@ export function Profile() {
                         color="blue-gray"
                         className="font-bold uppercase"
                       >
-                        4
+                        {ArchitectureProjects.length}
                       </Typography>
                       <Typography
                         variant="small"
@@ -58,7 +61,7 @@ export function Profile() {
                         color="blue-gray"
                         className="font-bold uppercase"
                       >
-                        28
+                        {InteriorProjects.length}
                       </Typography>
                       <Typography
                         variant="small"
@@ -73,7 +76,7 @@ export function Profile() {
                         color="blue-gray"
                         className="font-bold uppercase"
                       >
-                        8
+                        {LandscapeProjects.length}
                       </Typography>
                       <Typography
                         variant="small"

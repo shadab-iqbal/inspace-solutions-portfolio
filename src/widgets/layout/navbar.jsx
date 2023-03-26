@@ -21,7 +21,7 @@ export function Navbar({ brandName, routes, action }) {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-4 bg-black  text-white opacity-30 hover:opacity-50 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-10 rounded-lg ">
+    <ul className="mb-4 mt-2 flex flex-col gap-4 bg-black  text-white opacity-50 hover:opacity-80 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-10 rounded-lg ">
       {routes.map(({ name, path, icon, href, target }) => (
         <Typography
           key={name}
