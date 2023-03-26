@@ -31,7 +31,7 @@ export function Home() {
             showThumbs={false}
           >
             <div>
-              <img src="../../public/img/Inspace Solutions.png" />
+              <img src="../../public/img/modern interior.svg" />
             </div>
             <div>
               <img src="../../public/img/interior/Architecture 1.png" />
