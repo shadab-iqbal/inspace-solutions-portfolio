@@ -22,7 +22,7 @@ export function Home() {
   return (
     <>
       <div className="relative mb-10 flex content-center items-center justify-center pt-16 pb-32">
-        <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center">
+        <div className="absolute top-0 h-full w-full bg-black/75 bg-cover bg-center opacity-90 ">
           <Carousel
             dynamicHeight={true}
             autoPlay={true}
@@ -30,6 +30,9 @@ export function Home() {
             showArrows={false}
             showThumbs={false}
           >
+            <div>
+              <img src="../../public/img/Inspace Solutions.png" />
+            </div>
             <div>
               <img src="../../public/img/interior/Architecture 1.png" />
             </div>
@@ -57,14 +60,14 @@ export function Home() {
               <Typography
                 variant="h1"
                 color="white"
-                className="mb-6 font-black"
+                className="mb-20 font-black text-red-50"
               >
-                Your story starts with us.
+                
               </Typography>
-              <Typography variant="lead" color="white" className="opacity-80">
-                This is a simple example of a Landing Page you can build using
-                Material Tailwind. It features multiple components based on the
-                Tailwind CSS and Material Design by Google.
+              <Typography variant="lead" className="text-red-50 opacity-10 font-sans text-2xl invisible">
+              Inspace Solutions creates inspiring spaces that transform lives. 
+              We specialize in designing and building innovative and functional 
+              spaces for residential and commercial projects.
               </Typography>
             </div>
           </div>
@@ -96,17 +99,18 @@ export function Home() {
                 className="mb-3 font-bold"
                 color="blue-gray"
               >
-                Working with us is a pleasure
+                Why choose Inspace Solutions for your work?
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                Don't let your uses guess by attaching tooltips and popoves to
-                any element. Just make sure you enable them first via
-                JavaScript.
-                <br />
-                <br />
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. Just make sure you enable them first via JavaScript.
+              At Inspace Solutions, we are committed to delivering exceptional solutions 
+              that exceed our clients' expectations. We believe that good design is about 
+              more than just aesthetics - it's about creating spaces that inspire and transform lives. 
+              When you choose to work with us, you can expect nothing but the best. Our team of 
+              experienced designers, architects, and landscapers are dedicated to delivering 
+              innovative and functional designs that are tailored to your specific needs. 
+              We pride ourselves on our attention to detail, commitment to quality, and ability 
+              to deliver projects on time and within budget. Let's work together to create a space 
+              that truly reflects your vision and exceeds your expectations.
               </Typography>
               <Button variant="outlined">read more</Button>
             </div>

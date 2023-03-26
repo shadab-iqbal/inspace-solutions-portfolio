@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import LogoImage from '../../../public/img/LOGO_InspaceSolutions.png'
 import {
   Navbar as MTNavbar,
   MobileNav,
@@ -106,7 +107,7 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: <span className="text-black">Inspace Solutions</span>,
+  brandName: <img src={LogoImage} alt="Inspace Logo" style={{ width: '70px', height: '70px' }} />,
   action: <a href="#footer"></a>,
 };
 
