@@ -35,7 +35,7 @@ export function Profile() {
                 </div>
                 <div className="mt-10 flex w-full justify-center px-4 lg:order-3 lg:mt-0 lg:w-4/12 lg:justify-end lg:self-center">
                  <a href="/contact-us">
-                  <Button className="bg-blue-400" >Conntect</Button>
+                  <Button className="bg-blue-400" >Contact</Button>
                  </a>                 
                 </div>
                 <div className="w-full px-4 lg:order-1 lg:w-4/12">
