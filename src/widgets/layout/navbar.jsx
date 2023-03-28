@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
-import LogoImage from '../../../public/img/LOGO_InspaceSolutions.png'
+import LogoImage from "../../../public/img/LOGO_InspaceSolutions.png";
 import {
   Navbar as MTNavbar,
   MobileNav,
@@ -22,7 +22,7 @@ export function Navbar({ brandName, routes, action }) {
   }, []);
 
   const navList = (
-    <ul className="mb-4 mt-2 flex flex-col gap-4 bg-black  text-white opacity-50 hover:opacity-80 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-10 rounded-lg ">
+    <ul className="mb-4 mt-2 flex flex-col gap-4 rounded-lg  bg-black text-white opacity-50 hover:opacity-80 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center lg:gap-10 ">
       {routes.map(({ name, path, icon, href, target }) => (
         <Typography
           key={name}
@@ -107,7 +107,13 @@ export function Navbar({ brandName, routes, action }) {
 }
 
 Navbar.defaultProps = {
-  brandName: <img src={LogoImage} alt="Inspace Logo" style={{ width: '70px', height: '70px' }} />,
+  brandName: (
+    <img
+      src={LogoImage}
+      alt="Inspace Logo"
+      style={{ width: "70px", height: "70px" }}
+    />
+  ),
   action: <a href="#footer"></a>,
 };
 

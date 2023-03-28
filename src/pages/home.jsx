@@ -27,7 +27,7 @@ export function Home() {
             dynamicHeight={true}
             autoPlay={true}
             infiniteLoop={true}
-            showArrows={false}
+            showArrows={true}
             showThumbs={false}
           >
             <div>
@@ -42,24 +42,24 @@ export function Home() {
             <div>
               <img src="../../public/img/Carousel 4.png" />
             </div>
-            
           </Carousel>
         </div>
 
-        <div className="max-w-8xl container relative mx-auto mt-24 pt-16">
+        <div className="max-w-8xl container relative mx-auto mt-24 hidden pt-16 lg:block">
           <div className="flex flex-wrap items-center">
             <div className="ml-auto mr-auto w-full px-4 text-center lg:w-8/12">
               <Typography
                 variant="h1"
                 color="white"
                 className="mb-20 font-black text-red-50"
+              ></Typography>
+              <Typography
+                variant="lead"
+                className="invisible font-sans text-2xl text-red-50 opacity-10"
               >
-                
-              </Typography>
-              <Typography variant="lead" className="text-red-50 opacity-10 font-sans text-2xl invisible">
-              Inspace Solutions creates inspiring spaces that transform lives. 
-              We specialize in designing and building innovative and functional 
-              spaces for residential and commercial projects.
+                Inspace Solutions creates inspiring spaces that transform lives.
+                We specialize in designing and building innovative and
+                functional spaces for residential and commercial projects.
               </Typography>
             </div>
           </div>
@@ -94,15 +94,18 @@ export function Home() {
                 Why choose Inspace Solutions for your work?
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-                At Inspace Solutions, we are committed to delivering exceptional solutions 
-                that exceed our clients' expectations. We believe that good design is about 
-                more than just aesthetics - it's about creating spaces that inspire and transform lives. 
-                When you choose to work with us, you can expect nothing but the best. Our team of 
-                experienced designers, architects, and landscapers are dedicated to delivering 
-                innovative and functional designs that are tailored to your specific needs. 
-                We pride ourselves on our attention to detail, commitment to quality, and ability 
-                to deliver projects on time and within budget. Let's work together to create a space 
-                that truly reflects your vision and exceeds your expectations.
+                At Inspace Solutions, we are committed to delivering exceptional
+                solutions that exceed our clients' expectations. We believe that
+                good design is about more than just aesthetics - it's about
+                creating spaces that inspire and transform lives. When you
+                choose to work with us, you can expect nothing but the best. Our
+                team of experienced designers, architects, and landscapers are
+                dedicated to delivering innovative and functional designs that
+                are tailored to your specific needs. We pride ourselves on our
+                attention to detail, commitment to quality, and ability to
+                deliver projects on time and within budget. Let's work together
+                to create a space that truly reflects your vision and exceeds
+                your expectations.
               </Typography>
               <Button variant="outlined">read more</Button>
             </div>
