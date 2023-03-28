@@ -56,6 +56,7 @@
   text-align: center;
   margin-right: 30px;
   float: left;
+  box-shadow: 5px 5px 5px rgb(96, 86, 86);
 }
 
 .icon i {
@@ -136,6 +137,7 @@ form button {
   text-transform: uppercase;
   border-radius: 10px;
   padding: 12px 40px 10px;
+  box-shadow: 5px 5px 5px rgb(96, 86, 86);
 }
 
 .map-column {
@@ -144,6 +146,8 @@ form button {
 }
 
 .contact-map iframe {
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px rgb(96, 86, 86);
   width: 100%;
   height: 800px;
 }
