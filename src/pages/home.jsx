@@ -94,15 +94,15 @@ export function Home() {
                 Why choose Inspace Solutions for your work?
               </Typography>
               <Typography className="mb-8 font-normal text-blue-gray-500">
-              At Inspace Solutions, we are committed to delivering exceptional solutions 
-              that exceed our clients' expectations. We believe that good design is about 
-              more than just aesthetics - it's about creating spaces that inspire and transform lives. 
-              When you choose to work with us, you can expect nothing but the best. Our team of 
-              experienced designers, architects, and landscapers are dedicated to delivering 
-              innovative and functional designs that are tailored to your specific needs. 
-              We pride ourselves on our attention to detail, commitment to quality, and ability 
-              to deliver projects on time and within budget. Let's work together to create a space 
-              that truly reflects your vision and exceeds your expectations.
+                At Inspace Solutions, we are committed to delivering exceptional solutions 
+                that exceed our clients' expectations. We believe that good design is about 
+                more than just aesthetics - it's about creating spaces that inspire and transform lives. 
+                When you choose to work with us, you can expect nothing but the best. Our team of 
+                experienced designers, architects, and landscapers are dedicated to delivering 
+                innovative and functional designs that are tailored to your specific needs. 
+                We pride ourselves on our attention to detail, commitment to quality, and ability 
+                to deliver projects on time and within budget. Let's work together to create a space 
+                that truly reflects your vision and exceeds your expectations.
               </Typography>
               <Button variant="outlined">read more</Button>
             </div>
