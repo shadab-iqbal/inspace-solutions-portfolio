@@ -1,42 +1,26 @@
 [
-  {
-    "id": "7",
-    "title": "Subarnabhumi Resort Deck",
-    "location": "Gazaria",
-    "type": "landscape",
-    "image": [
-      {
-        "original": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/6.jpg",
-        "thumbnail": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/6.jpg"
-      },
-      {
-        "original": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/1.jpg",
-        "thumbnail": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/1.jpg"
-      },
-      {
-        "original": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/10.jpg",
-        "thumbnail": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/10.jpg"
-      },
-      {
-        "original": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/2.jpg",
-        "thumbnail": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/2.jpg"
-      },
-      {
-        "original": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/3.jpg",
-        "thumbnail": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/3.jpg"
-      },
-      {
-        "original": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/4.jpg",
-        "thumbnail": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/4.jpg"
-      },
-      {
-        "original": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/5.jpg",
-        "thumbnail": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/5.jpg"
-      },
-      {
-        "original": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/7.jpg",
-        "thumbnail": "../../../public/img/landscape/Subarnabhumi Resort- Open Deak with Juicebar/7.jpg"
-      }
-    ]
-  }
+    {
+        "id": "8",
+        "title": "Office Room",
+        "location": "Niketon, Dhaka",
+        "type": "interior",
+        "image": [
+            {
+                "original": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/01.jpg",
+                "thumbnail": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/01.jpg"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/03.jpg",
+                "thumbnail": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/03.jpg"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/02.jpg",
+                "thumbnail": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/02.jpg"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/04.jpg",
+                "thumbnail": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/04.jpg"
+            }
+        ]
+    }
 ]
