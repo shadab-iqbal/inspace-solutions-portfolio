@@ -1,25 +1,125 @@
 [
     {
-        "id": "8",
-        "title": "Office Room",
-        "location": "Niketon, Dhaka",
+        "id": "25",
+        "title": "Residence",
+        "location": "Dhaka",
         "type": "interior",
         "image": [
             {
-                "original": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/01.jpg",
-                "thumbnail": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/01.jpg"
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/1.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/1.png"
             },
             {
-                "original": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/03.jpg",
-                "thumbnail": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/03.jpg"
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/10.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/10.png"
             },
             {
-                "original": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/02.jpg",
-                "thumbnail": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/02.jpg"
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/11.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/11.png"
             },
             {
-                "original": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/04.jpg",
-                "thumbnail": "../../../public/img/interior/Interior Office project/Mr. Niyamul Kader (Office room)- Niketon, Dhaka/04.jpg"
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/12.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/12.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/13.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/13.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/14.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/14.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/15.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/15.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/2.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/2.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/21.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/21.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/22.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/22.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/23.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/23.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/24.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/24.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/3.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/3.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/31.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/31.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/32.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/32.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/33.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/33.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/34.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/34.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/4.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/4.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/41.jpg",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/41.jpg"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/42.jpg",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/42.jpg"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/43.jpg",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/43.jpg"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/44.jpg",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/44.jpg"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/5.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/5.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/6.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/6.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/7.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/7.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/8.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/8.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/9.png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/9.png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/k (1).png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/k (1).png"
+            },
+            {
+                "original": "../../../public/img/interior/Interior Residance/Sujon Vaia/k (2).png",
+                "thumbnail": "../../../public/img/interior/Interior Residance/Sujon Vaia/k (2).png"
             }
         ]
     }

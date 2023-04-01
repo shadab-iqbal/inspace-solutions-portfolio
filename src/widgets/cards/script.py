@@ -1,12 +1,12 @@
 import os
 import json
 
-imagePath = "../../../public/img/interior/Interior Residance/Altu Khan Jute Mills Limited (AKJML)"
+imagePath = "../../../public/img/interior/Interior Residance/Sujon Vaia"
 LandscapeProjects = [
     {
-        "id": "8",
-        "title": "Office Room",
-        "location": "Niketon, Dhaka",
+        "id": "25",
+        "title": "Residence",
+        "location": "Dhaka",
         "type": "interior",
         "image": []
     }
