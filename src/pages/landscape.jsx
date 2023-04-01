@@ -9,7 +9,7 @@ export function Landscape() {
     <>
       <div className="">
         <img
-          src="../../public/img/landscape/Mr. Aynul Islam Resident Aurunapolli, Savar, Dhaka/Mr. Aynul islam- resident landscape-Aurunapolli, Savar, Dhaka (7).jpg"
+          src="../../public/img/landscape/Aruna palli landscape/Mr. Aynul islam- resident landscape-Aurunapolli, Savar, Dhaka (7).jpg"
           style={{ height: "800px", width: "100%" }}
         />
 
@@ -54,9 +54,10 @@ export function Landscape() {
                   <div className="property-content">
                     <h3>{project.heading}</h3>
                     <div className="mark">
-                        <span>{project.title}</span><br/>
-                        <i class="fa-solid fa-location-dot"></i> 
-                        <span>{project.location}</span>
+                      <span>{project.title}</span>
+                      <br />
+                      <i class="fa-solid fa-location-dot"></i>
+                      <span>{project.location}</span>
                     </div>
                     <Link
                       to={
