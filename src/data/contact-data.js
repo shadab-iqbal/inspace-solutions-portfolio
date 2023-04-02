@@ -6,16 +6,16 @@ import {
 
 export const contactData = [
   {
-    title: "Excelent Services",
+    title: "Excellent Services",
     icon: StarIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "We deliver top-quality designs and construction projects with a focus on customer satisfaction.",
   },
   {
     title: "Grow Your Market",
     icon: PresentationChartLineIcon,
     description:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
+      "Our company helps you grow your values with unique and innovative designs.",
   },
   {
     title: "Launch Time",

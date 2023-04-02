@@ -107,7 +107,7 @@ export function Home() {
                 to create a space that truly reflects your vision and exceeds
                 your expectations.
               </Typography>
-              <Button variant="outlined">read more</Button>
+              {/* <Button variant="outlined">read more</Button> */}
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
               <Card className="shadow-lg shadow-gray-500/10">
@@ -127,9 +127,10 @@ export function Home() {
                     Top Notch Services
                   </Typography>
                   <Typography className="font-normal text-blue-gray-500">
-                    The Arctic Ocean freezes every winter and much of the
-                    sea-ice then thaws every summer, and that process will
-                    continue whatever happens.
+                    Our architecture company provides exceptional services,
+                    ensuring that each project is given the utmost attention to
+                    detail, quality, and professionalism to meet our client's
+                    needs and expectations.
                   </Typography>
                 </CardBody>
               </Card>
@@ -143,9 +144,11 @@ export function Home() {
       <section className="relative bg-gray-200 py-24 px-4">
         <div className="container mx-auto">
           <PageTitle heading="Build something">
-            Put the potentially record low maximum sea ice extent tihs year down
-            to low ice. According to the National Oceanic and Atmospheric
-            Administration, Ted, Scambos.
+            We work collaboratively with our clients to construct a vision that
+            reflects their unique style and preferences. Our team of architects
+            and builders is committed to delivering high-quality construction
+            projects that are structurally sound, functional, and aesthetically
+            pleasing, on time and on budget.
           </PageTitle>
           <div className="mx-auto mt-20 mb-8 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
             {contactData.map(({ title, icon, description }) => (

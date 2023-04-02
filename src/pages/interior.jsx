@@ -10,7 +10,7 @@ export function Interior() {
       <div className="">
         <img
           // src="../../public/img/interior/interior_4.jpg"
-          src="../../public/img/interior/Interior Residance/Sujon Vaia/Mother Bed/1.jpg"
+          src="../../public/img/interior/Interior Residance/Sujon Vaia/41.jpg"
           style={{ height: "800px", width: "100%" }}
         />
 
@@ -55,9 +55,10 @@ export function Interior() {
                   <div className="property-content">
                     <h3>{project.heading}</h3>
                     <div className="mark">
-                        <span>{project.title}</span><br/>
-                        <i class="fa-solid fa-location-dot"></i> 
-                        <span>{project.location}</span>
+                      <span>{project.title}</span>
+                      <br />
+                      <i class="fa-solid fa-location-dot"></i>
+                      <span>{project.location}</span>
                     </div>
                     <Link
                       to={
