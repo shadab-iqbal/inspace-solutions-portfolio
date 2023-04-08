@@ -36,8 +36,8 @@ export function Contact() {
                       <i className="fa-solid fa-phone"></i>
                     </div>
                     <div className="text">
-                      <h5>Contact Us</h5>
-                      <p>+8801795370214</p>
+                      <h5>Contact No</h5>
+                      <p>+8801711053811</p>
                     </div>
                   </div>
 
@@ -47,7 +47,7 @@ export function Contact() {
                     </div>
                     <div className="text">
                       <h5>Mail</h5>
-                      <p>inspacesolutions@gmail.com</p>
+                      <p>xxx</p>
                     </div>
                   </div>
                 </div>
