@@ -9,8 +9,7 @@ export function Interior() {
     <>
       <div className="">
         <img
-          // src="../../public/img/interior/interior_4.jpg"
-          src="../../public/img/interior/Interior Residance/Sujon Vaia/41.jpg"
+          src="../../img/interior/Interior Residance/Sujon Vaia/41.jpg"
           style={{ height: "800px", width: "100%" }}
         />
 

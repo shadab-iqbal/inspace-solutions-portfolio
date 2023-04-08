@@ -1,18 +1,14 @@
-import React, { Fragment, useState } from "react";
+import React from "react";
 import {
   Card,
   CardBody,
   CardHeader,
   Typography,
-  Button,
-  IconButton,
-  Input,
-  Textarea,
 } from "@material-tailwind/react";
 import { UsersIcon } from "@heroicons/react/24/solid";
 import { PageTitle, Footer } from "@/widgets/layout";
-import { FeatureCard, TeamCard } from "@/widgets/cards";
-import { featuresData, teamData, contactData } from "@/data";
+import { FeatureCard } from "@/widgets/cards";
+import { featuresData } from "@/data";
 import Property from "../widgets/cards/Property";
 import "../../public/css/carousel.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
@@ -31,16 +27,16 @@ export function Home() {
             showThumbs={false}
           >
             <div>
-              <img src="../../public/img/Carousel 1.png" />
+              <img src="../../img/carousel/1.png" />
             </div>
             <div>
-              <img src="../../public/img/1.png" />
+              <img src="../../img/carousel/2.png" />
             </div>
             <div>
-              <img src="../../public/img/2.png" />
+              <img src="../../img/carousel/3.png" />
             </div>
             <div>
-              <img src="../../public/img/3.png" />
+              <img src="../../img/carousel/4.png" />
             </div>
           </Carousel>
         </div>
@@ -107,14 +103,13 @@ export function Home() {
                 to create a space that truly reflects your vision and exceeds
                 your expectations.
               </Typography>
-              {/* <Button variant="outlined">read more</Button> */}
             </div>
             <div className="mx-auto mt-24 flex w-full justify-center px-4 md:w-4/12 lg:mt-0">
               <Card className="shadow-lg shadow-gray-500/10">
                 <CardHeader className="relative h-56">
                   <img
                     alt="Card Image"
-                    src="../../public/img/Home_card_img.jpg"
+                    src="../../img/Home_card_img.jpg"
                     className="h-full w-full"
                   />
                 </CardHeader>

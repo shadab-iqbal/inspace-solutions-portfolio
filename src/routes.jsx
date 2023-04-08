@@ -9,10 +9,10 @@ import {
 import {
   HomeIcon,
   UserCircleIcon,
-  ArrowRightOnRectangleIcon,
-  UserPlusIcon,
-  DocumentTextIcon,
   PhoneIcon,
+  BuildingOfficeIcon,
+  HomeModernIcon,
+  GlobeAsiaAustraliaIcon,
 } from "@heroicons/react/24/solid";
 
 export const routes = [
@@ -23,19 +23,19 @@ export const routes = [
     element: <Home />,
   },
   {
-    icon: HomeIcon,
+    icon: BuildingOfficeIcon,
     name: "architecture",
     path: "/architecture",
     element: <Architecture />,
   },
   {
-    icon: HomeIcon,
+    icon: HomeModernIcon,
     name: "interior",
     path: "/interior",
     element: <Interior />,
   },
   {
-    icon: HomeIcon,
+    icon: GlobeAsiaAustraliaIcon,
     name: "landscape",
     path: "/landscape",
     element: <Landscape />,

@@ -9,7 +9,7 @@ export function Landscape() {
     <>
       <div className="">
         <img
-          src="../../public/img/landscape/Aruna palli landscape/Mr. Aynul islam- resident landscape-Aurunapolli, Savar, Dhaka (7).jpg"
+          src="../../img/landscape/Aruna palli landscape/Mr. Aynul islam- resident landscape-Aurunapolli, Savar, Dhaka (7).jpg"
           style={{ height: "800px", width: "100%" }}
         />
 

@@ -1,13 +1,15 @@
 import os
 import json
 
-imagePath = "../../../public/img/interior/Interior Residance/Sujon Vaia"
+imagePath = "../../../public/img/architecture/Nator"
+directPath = "../../../img/architecture/Nator"
+
 LandscapeProjects = [
     {
-        "id": "25",
+        "id": "5",
         "title": "Residence",
         "location": "Dhaka",
-        "type": "interior",
+        "type": "architecture",
         "image": []
     }
 ]
@@ -18,8 +20,8 @@ imageFilenames = os.listdir(imagePath)
 # Add each image to the LandscapeProjects object
 for filename in imageFilenames:
     LandscapeProjects[0]["image"].append({
-        "original": imagePath + "/" + filename,
-        "thumbnail": imagePath + "/" + filename
+        "original": directPath + "/" + filename,
+        "thumbnail": directPath + "/" + filename
     })
 
 # Print the resulting LandscapeProjects object

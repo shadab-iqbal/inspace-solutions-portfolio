@@ -9,7 +9,7 @@ export function Architecture() {
     <div>
       <div>
         <img
-          src="../../public/img/architecture/Subarnabhumi Resort- concept for Hotel building/05.jpg"
+          src="../../img/architecture/Subarnabhumi Resort- concept for Hotel building/05.jpg"
           style={{ height: "800px", width: "100%" }}
         />
 

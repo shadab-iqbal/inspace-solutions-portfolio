@@ -2,7 +2,6 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import { Navbar } from "@/widgets/layout";
 import routes from "@/routes";
 import Project from "../src/pages/project.jsx";
-import PropertyDetail from "./widgets/cards/ArchitectureProjects.js";
 
 function App() {
   return (
