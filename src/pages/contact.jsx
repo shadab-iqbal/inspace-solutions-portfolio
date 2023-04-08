@@ -47,7 +47,7 @@ export function Contact() {
                     </div>
                     <div className="text">
                       <h5>Mail</h5>
-                      <p>xxx</p>
+                      <p>inspacesolutions@gmail.com</p>
                     </div>
                   </div>
                 </div>
