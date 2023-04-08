@@ -38,7 +38,7 @@ export function Landscape() {
           LANDSCAPE WORKS SELECTION
         </h1>
         <p class="text-lg font-light">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Discover the beauty of nature in our landscape designs.
         </p>
       </div>
 

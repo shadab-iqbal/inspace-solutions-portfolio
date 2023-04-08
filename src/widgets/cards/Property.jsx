@@ -1,4 +1,4 @@
-import React, { Fragment, useState } from "react";
+import React, { Fragment } from "react";
 import { Link } from "react-router-dom";
 
 import ArchitectureProjects from "./ArchitectureProjects.js";
@@ -37,8 +37,9 @@ const Property = () => {
                     <div className="property-content">
                       <h3>{project.heading}</h3>
                       <div className="mark">
-                        <span>{project.title}</span><br/>
-                        <i class="fa-solid fa-location-dot"></i> 
+                        <span>{project.title}</span>
+                        <br />
+                        <i class="fa-solid fa-location-dot"></i>
                         <span>{project.location}</span>
                       </div>
                       <Link

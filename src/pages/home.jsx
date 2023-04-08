@@ -34,13 +34,13 @@ export function Home() {
               <img src="../../public/img/Carousel 1.png" />
             </div>
             <div>
-              <img src="../../public/img/Carousel 2.png" />
+              <img src="../../public/img/1.png" />
             </div>
             <div>
-              <img src="../../public/img/Carousel 3.png" />
+              <img src="../../public/img/2.png" />
             </div>
             <div>
-              <img src="../../public/img/Carousel 4.png" />
+              <img src="../../public/img/3.png" />
             </div>
           </Carousel>
         </div>
@@ -150,28 +150,6 @@ export function Home() {
             projects that are structurally sound, functional, and aesthetically
             pleasing, on time and on budget.
           </PageTitle>
-          <div className="mx-auto mt-20 mb-8 grid max-w-5xl grid-cols-1 gap-16 md:grid-cols-2 lg:grid-cols-3">
-            {contactData.map(({ title, icon, description }) => (
-              <Card
-                key={title}
-                color="transparent"
-                shadow={false}
-                className="text-center text-blue-gray-900"
-              >
-                <div className="mx-auto mb-6 grid h-14 w-14 place-items-center rounded-full bg-white shadow-lg shadow-gray-500/20">
-                  {React.createElement(icon, {
-                    className: "w-5 h-5",
-                  })}
-                </div>
-                <Typography variant="h5" color="blue-gray" className="mb-2">
-                  {title}
-                </Typography>
-                <Typography className="font-normal text-blue-gray-500">
-                  {description}
-                </Typography>
-              </Card>
-            ))}
-          </div>
         </div>
       </section>
 

@@ -1,4 +1,4 @@
-import { PageTitle, Footer } from "@/widgets/layout";
+import { Footer } from "@/widgets/layout";
 import { Typography } from "@material-tailwind/react";
 import "../../public/css/Property.css";
 import ArchitectureProjects from "../widgets/cards/ArchitectureProjects.js";
@@ -28,7 +28,7 @@ export function Architecture() {
           ARCHITECTURAL WORKS SELECTION
         </h1>
         <p class="text-lg font-light">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Experience the art and science of architectural design.
         </p>
       </div>
 
@@ -44,9 +44,10 @@ export function Architecture() {
                   <div className="property-content">
                     <h3>{project.heading}</h3>
                     <div className="mark">
-                        <span>{project.title}</span><br/>
-                        <i class="fa-solid fa-location-dot"></i> 
-                        <span>{project.location}</span>
+                      <span>{project.title}</span>
+                      <br />
+                      <i class="fa-solid fa-location-dot"></i>
+                      <span>{project.location}</span>
                     </div>
                     <Link
                       to={

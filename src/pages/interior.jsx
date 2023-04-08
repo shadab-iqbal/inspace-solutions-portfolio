@@ -39,7 +39,7 @@ export function Interior() {
           INTERIOR WORKS SELECTION
         </h1>
         <p class="text-lg font-light">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Step inside our world of interior design.
         </p>
       </div>
 

@@ -162,7 +162,6 @@ export function Profile() {
                       our services and to schedule a consultation with one of
                       our designers.
                     </Typography>
-                    {/* <Button variant="text">Show more</Button> */}
                   </div>
                 </div>
               </div>

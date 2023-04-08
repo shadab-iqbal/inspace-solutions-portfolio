@@ -48,7 +48,6 @@ export function Footer({ title, description, socials, menus, copyright }) {
                       <Typography
                         as="a"
                         href={item.path}
-                        target="_blank"
                         rel="noreferrer"
                         variant="small"
                         className="mb-2 block font-normal text-blue-gray-500 hover:text-blue-gray-700"
@@ -88,19 +87,9 @@ Footer.defaultProps = {
       name: "facebook",
       path: "https://www.facebook.com/inspacebd",
     },
-    // {
-    //   color: "light-blue",
-    //   name: "twitter",
-    //   path: "https://www.twitter.com/creativetim",
-    // },
     {
-      color: "purple",
-      name: "instagram",
-      path: "",
-    },
-    {
-      color: "red",
-      name: "youtube",
+      color: "light-blue",
+      name: "linkedin",
       path: "",
     },
   ],
@@ -108,15 +97,14 @@ Footer.defaultProps = {
     {
       name: "useful links",
       items: [
-        { name: "About Us", path: "https://www.creative-tim.com/presentation" },
-        { name: "Blog", path: "https://www.creative-tim.com/blog" },
         {
-          name: "Github",
-          path: "https://www.github.com/creativetimofficial/material-tailwind?ref=mtk",
+          name: "Architecture",
+          path: "/architecture",
         },
+        { name: "Interior", path: "/interior" },
         {
-          name: "Free Products",
-          path: "https://www.creative-tim.com/templates/free?ref=mtk",
+          name: "Landscape",
+          path: "/landscape",
         },
       ],
     },
@@ -124,33 +112,25 @@ Footer.defaultProps = {
       name: "other resources",
       items: [
         {
-          name: "MIT License",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/LICENSE.md?ref=mtk",
+          name: "About us",
+          path: "/profile",
         },
         {
-          name: "Contribute",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CONTRIBUTING.md?ref=mtk",
-        },
-        {
-          name: "Change Log",
-          path: "https://github.com/creativetimofficial/material-tailwind/blob/main/CHANGELOG.md?ref=mtk",
-        },
-        {
-          name: "Contact Us",
-          path: "https://creative-tim.com/contact-us?ref=mtk",
+          name: "Contact us",
+          path: "/contact-us",
         },
       ],
     },
   ],
   copyright: (
     <>
-      Copyright © {2023} Inspace Solutions by{" "}
+      Copyright © {year} Inspace Solutions by{" "}
       <a
-        href="https://www.creative-tim.com?ref=mtk"
+        href="#"
         target="_blank"
         className="text-blue-gray-500 transition-colors hover:text-blue-500"
       >
-        Shadab Iqbal & Mohammed Taher
+        Trinify
       </a>
       .
     </>

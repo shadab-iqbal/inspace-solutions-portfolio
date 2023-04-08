@@ -1,19 +1,14 @@
-import { Link } from "react-router-dom";
-import {
-  Card,
-  CardHeader,
-  CardBody,
-  CardFooter,
-  Input,
-  Checkbox,
-  Button,
-  Typography,
-} from "@material-tailwind/react";
-import { SimpleFooter } from "@/widgets/layout";
 import { Fragment } from "react";
 import "../../public/css/contact.css";
 
 export function Contact() {
+  function sendEmail() {
+    const name = document.getElementById("name").value;
+    const message = document.getElementById("message").value;
+    const body = `Name: ${name}  Message: ${message}`;
+    window.location.href = `mailto:inspacesolutions@gmail.com?subject=Contact Form&body=${body}`;
+  }
+
   return (
     <>
       <Fragment>
@@ -60,14 +55,13 @@ export function Contact() {
 
               <div className="column-contact">
                 <div className="contact-form">
-                  <form action="#">
-                    <input type="text" placeholder="Name" />
-                    <input type="email" placeholder="Email" />
-                    <textarea placeholder="Comment"></textarea>
+                  <form id="contact-form">
+                    <input type="text" placeholder="Name" id="name" />
+                    <textarea placeholder="Message" id="message"></textarea>
                     <button
-                      // style={{ backgroundColor: "#287ff9" }}
-                      type="submit"
+                      type="button"
                       className="site-btn bg-blue-400"
+                      onClick={sendEmail}
                     >
                       Send Message
                     </button>
@@ -99,4 +93,3 @@ export function Contact() {
 }
 
 export default Contact;
-

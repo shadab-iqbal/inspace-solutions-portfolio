@@ -4,7 +4,7 @@ const InteriorProjects = [
   {
     id: "1",
     title: "Atul Khan Jute Mills Ltd",
-    location: "Sonargaon Road, Dhaka-12 05",
+    location: "Sonargaon Road, Dhaka-1205",
     type: "interior",
     image: [
       {
