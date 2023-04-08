@@ -27,16 +27,16 @@ export function Home() {
             showThumbs={false}
           >
             <div>
-              <img src="../../public/img/carousel/1.png" />
+              <img src="../../img/carousel/1.png" />
             </div>
             <div>
-              <img src="../../public/img/carousel/2.png" />
+              <img src="../../img/carousel/2.png" />
             </div>
             <div>
-              <img src="../../public/img/carousel/3.png" />
+              <img src="../../img/carousel/3.png" />
             </div>
             <div>
-              <img src="../../public/img/carousel/4.png" />
+              <img src="../../img/carousel/4.png" />
             </div>
           </Carousel>
         </div>
